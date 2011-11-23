@@ -1,0 +1,13 @@
+I'm a vim newbie. I code primarily in MacVim but I also use gvim on an Ubuntu box.
+
+I decided to keep history of my .vimrc config and will be adding stuff in this repository
+as I discover more features of this awesome editor.
+
+To use this repository:
+
+    1. clone the repository to ~/.vim
+    2. symlink your .vimrc to ~/.vim/vimrc with the following command:
+        ln -s ~/.vim/vimrc .vimrc
+
+
+Have fun coding!
