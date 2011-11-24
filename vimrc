@@ -12,7 +12,7 @@ autocmd FileType python setlocal expandtab shiftwidth=2 softtabstop=2
 
 
 " my preferred color scheme
-colorscheme slate
+colorscheme darkmate "slate used to be my preferred, but now I'm testing out darkmate
 
 
 " show line numbers
@@ -25,7 +25,7 @@ set nowrap
 if has("gui_running")
   " GUI is running or is about to start.
   " Maximize gvim window.
-  set lines=60 columns=120
+  set lines=45 columns=120
 else
   " This is console Vim.
   if exists("+lines")
@@ -36,3 +36,5 @@ else
   endif
 endif
 
+" font for GUI
+set guifont=Monaco:h13 "For this line to work, you have to install TextMate's Monaco font
