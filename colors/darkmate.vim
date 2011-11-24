@@ -35,7 +35,7 @@ let g:colors_name = "Darkmate"
 " Line and Columns
 au WinLeave * set nocursorline nocursorcolumn
 au WinEnter * set cursorline
-set cursorline 
+"set cursorline " I didn't really like the highlighting
 
 " Font
 set guifont=Monaco:h12
