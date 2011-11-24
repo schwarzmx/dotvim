@@ -10,11 +10,6 @@ autocmd FileType ruby setlocal expandtab shiftwidth=2 softtabstop=2
 " specify indentation for python files
 autocmd FileType python setlocal expandtab shiftwidth=2 softtabstop=2
 
-
-" my preferred color scheme
-colorscheme darkmate "slate used to be my preferred, but now I'm testing out darkmate
-
-
 " show line numbers
 set number
 
@@ -26,6 +21,8 @@ if has("gui_running")
   " GUI is running or is about to start.
   " Maximize gvim window.
   set lines=45 columns=120
+  " use darkmate only for GUI
+  colorscheme darkmate
 else
   " This is console Vim.
   if exists("+lines")
@@ -34,6 +31,9 @@ else
   if exists("+columns")
     set columns=120
   endif
+
+  " Use slate in the terminal
+  colorscheme slate
 endif
 
 " font for GUI
