@@ -16,15 +16,17 @@ set number
 " remove annoying wrap
 set nowrap
 
-" default window size
 if has("gui_running")
   " GUI is running or is about to start.
-  " Maximize gvim window.
+
+  " default window size
   set lines=45 columns=120
   " use darkmate only for GUI
   colorscheme darkmate
 else
   " This is console Vim.
+
+  " default window size
   if exists("+lines")
     set lines=50
   endif
