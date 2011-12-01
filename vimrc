@@ -40,3 +40,7 @@ endif
 
 " font for GUI
 set guifont=Monaco:h13 "For this line to work, you have to install TextMate's Monaco font
+
+" concentrate backups and swap files in one place
+set backupdir=~/.vim/.tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim/.tmp,~/.tmp,~/tmp,/var/tmp,/tmp
