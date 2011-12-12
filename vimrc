@@ -4,11 +4,13 @@ if has ("autocmd")
   filetype plugin indent on
 endif
 
+"" Whitespaces
+" always use spaces instead of tab
+set expandtab
 " specify indentation for ruby files
-autocmd FileType ruby setlocal expandtab shiftwidth=2 softtabstop=2
-
+autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
 " specify indentation for python files
-autocmd FileType python setlocal expandtab shiftwidth=2 softtabstop=2
+autocmd FileType python setlocal shiftwidth=2 softtabstop=2
 
 " show line numbers
 set number
@@ -44,3 +46,9 @@ set guifont=Monaco\ 9 "For this line to work, you have to install TextMate's Mon
 " concentrate backups and swap files in one place
 set backupdir=~/.vim/.tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim/.tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+
+" search
+set hlsearch	" highlight matches
+set incsearch	" incremental searching
+set ignorecase	" searches are case insensitive...
+set smartcase	" ... unless they contain at least one capital letter
