@@ -10,7 +10,7 @@ set expandtab
 " specify indentation for ruby files
 autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
 " specify indentation for python files
-autocmd FileType python setlocal shiftwidth=2 softtabstop=2
+autocmd FileType python setlocal shiftwidth=4 softtabstop=4
 
 " show line numbers
 set number
