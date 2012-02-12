@@ -11,6 +11,10 @@ set expandtab
 autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
 " specify indentation for python files
 autocmd FileType python setlocal shiftwidth=2 softtabstop=2
+" indentation for html
+autocmd FileType html setlocal shiftwidth=2 softtabstop=2
+" indentation for css
+autocmd FileType css setlocal shiftwidth=2 softtabstop=2
 
 " show line numbers
 set number
