@@ -1,2 +1,3 @@
 .tmp/*
 !.tmp/README
+.netrwhist
