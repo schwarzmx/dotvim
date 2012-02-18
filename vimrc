@@ -7,14 +7,14 @@ endif
 "" Whitespaces
 " always use spaces instead of tab
 set expandtab
-" specify indentation for ruby files
-autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
-" specify indentation for python files
-autocmd FileType python setlocal shiftwidth=4 softtabstop=4
+" specify indentation for rails files
+autocmd FileType ruby, eruby, yaml setlocal shiftwidth=2 softtabstop=2
 " indentation for html
 autocmd FileType html setlocal shiftwidth=2 softtabstop=2
 " indentation for css
 autocmd FileType css setlocal shiftwidth=2 softtabstop=2
+" specify indentation for python files
+autocmd FileType python setlocal shiftwidth=4 softtabstop=4
 
 " show line numbers
 set number
