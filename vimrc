@@ -8,7 +8,7 @@ endif
 " always use spaces instead of tab
 set expandtab
 " specify indentation for rails files
-autocmd FileType ruby, eruby, yaml setlocal shiftwidth=2 softtabstop=2
+autocmd FileType ruby,eruby,yaml setlocal shiftwidth=2 softtabstop=2
 " indentation for html
 autocmd FileType html setlocal shiftwidth=2 softtabstop=2
 " indentation for css
