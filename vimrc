@@ -15,6 +15,8 @@ autocmd FileType html setlocal shiftwidth=2 softtabstop=2
 autocmd FileType css setlocal shiftwidth=2 softtabstop=2
 " specify indentation for python files
 autocmd FileType python setlocal shiftwidth=4 softtabstop=4
+" specify indentation for javascript files
+autocmd FileType javascript setlocal shiftwidth=4 softtabstop=4
 
 " show line numbers
 set number
