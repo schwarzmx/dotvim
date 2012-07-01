@@ -1,3 +1,4 @@
+syntax on
 " automatic indentation based on filetype
 set autoindent
 if has ("autocmd")
@@ -47,7 +48,7 @@ else
 endif
 
 " font for GUI
-set guifont=Monaco\ 9 "For this line to work, you have to install TextMate's Monaco font
+set guifont=Monaco\ 10 "For this line to work, you have to install TextMate's Monaco font
 
 " concentrate backups and swap files in one place
 set backupdir=~/.vim/.tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -58,3 +59,4 @@ set hlsearch	" highlight matches
 set incsearch	" incremental searching
 set ignorecase	" searches are case insensitive...
 set smartcase	" ... unless they contain at least one capital letter
+
