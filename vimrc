@@ -46,7 +46,9 @@ else
   endif
 
   " Use slate in the terminal
-  colorscheme slate
+  " colorscheme slate
+  syntax on
+  colorscheme superman
 endif
 
 " font for GUI
