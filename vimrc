@@ -48,11 +48,12 @@ else
   " Use slate in the terminal
   " colorscheme slate
   syntax on
+  set t_Co=256
   colorscheme superman
 endif
 
 " font for GUI
-set guifont=Monaco\ 9 "For this line to work, you have to install TextMate's Monaco font
+set guifont=Monaco\ for\ Powerline\ 9"For this line to work, you have to install TextMate's Monaco font
 
 " concentrate backups and swap files in one place
 set backupdir=~/.vim/.tmp,~/.tmp,~/tmp,/var/tmp,/tmp
