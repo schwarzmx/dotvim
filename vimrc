@@ -37,14 +37,6 @@ if has("gui_running")
 else
   " This is console Vim.
 
-  " default window size
-  if exists("+lines")
-    set lines=50
-  endif
-  if exists("+columns")
-    set columns=120
-  endif
-
   " Use slate in the terminal
   " colorscheme slate
   syntax on
