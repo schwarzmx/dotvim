@@ -13,5 +13,8 @@ echo "ok"
 
 echo "Creating symbolic links..."
 
-rm -rf ~/.vimrc
+if [ -f ~/.vimrc ]
+then
+	mv ~/.vimrc ~/.vimrc.backup
+fi
 ln -s ~/.vim/vimrc ~/.vimrc
