@@ -5,9 +5,7 @@ as I discover more features of this awesome editor.
 
 To use this repository:
 
-    1. clone the repository to ~/.vim
-    2. symlink your .vimrc to ~/.vim/vimrc with the following command:
-        ln -s ~/.vim/vimrc .vimrc
-
+    1. clone the repository to ~/.vim with: `git clone git@github.com:schwarzmx/dotvim.git ~/.vim`
+    2. Create the symbolic links to the .vim folder with the following command: `./install.sh`
 
 Have fun coding!
