@@ -9,7 +9,7 @@ To use this repository:
 
         git clone git@github.com:schwarzmx/dotvim.git ~/.vim
 
-2. Create the symbolic links to the .vim folder with the following command:
+2. Create the symbolic links to the .vim folder with the following command (within ~/.vim/):
 
         ./install.sh
 
